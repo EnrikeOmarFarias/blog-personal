@@ -8,17 +8,19 @@ html {
   font-size: 62.5%;
 }
 
-body {
+.home__body {
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  font-size: 1.6rem;
+}
 
-  font-family: "Roboto", serif;
-  font-weight: 100;
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
   font-style: normal;
+  font-size: 1.6rem;
 }
 
 a {
@@ -80,7 +82,7 @@ nav .profile-link {
 
 nav .profile-link a {
   border-bottom: 1px solid black;
-  font-family: "Roboto", serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
 }
 
@@ -123,4 +125,56 @@ nav .profile-link a {
 .home__main--button a {
   font-weight: bold;
   font-size: 1.8rem;
+}
+
+/*----------------------------- BLOGS ------------- */
+
+.main__blogs {
+  display: grid;
+}
+
+.blogs__conteiner--news {
+  background-color: #e6e9ed;
+  padding: 40px 50px;
+}
+
+.blogs__conteiner--new {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.blogs__conteiner--news-img {
+  grid-column: 1;
+}
+
+.blogs__conteiner--news-img img {
+  width: 85%;
+}
+
+.blogs__conteiner--news-info {
+  grid-column: 2;
+}
+
+.blogs__conteiner--news-info h3 {
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+
+.blogs__conteiner--posts {
+  padding: 50px 40px;
+}
+
+.blogs__conteiner--posts h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.blogs__button {
+  margin-top: 20px;
+  border: 1px solid #47cfac;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bolder;
 }

@@ -220,3 +220,60 @@ footer p {
   color: white;
   margin-top: 20px;
 }
+
+/*-------------BLOG-----*/
+
+.blogpost__conteiner--img {
+  padding: 0 50px 40px;
+}
+
+.blogpost__conteiner--img img {
+  width: 100%;
+}
+
+.blogpost__conteiner--main {
+  padding: 0 50px 40px;
+}
+
+.blogpost__conteiner--main h3 {
+  border-bottom: 1px solid #22272d;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.blogpost__conteiner--main article h1 {
+  font-size: 25px;
+}
+
+.blogpost__conteiner--main p {
+  margin: 10px;
+}
+
+.contact__conteiner--main {
+  width: 100%;
+  height: 250px;
+  background-color: #e6e9ed;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact__conteiner--main div {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+}
+
+.contact__conteiner--main a {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.contact__conteiner--main .contact__left,
+.contact__right {
+  text-align: initial;
+  margin-top: 85px;
+}
+
+.contact__conteiner--main img {
+  width: 100px;
+}
